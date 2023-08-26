@@ -24531,3 +24531,123 @@ File Path                                             PID    Runtime      # DAGs
 /opt/airflow/dags/nikeProducts_dag.py                                          1           0  0.31s           2023-08-26T05:51:17
 /opt/airflow/dags/nikeSales_dag.py                                             1           0  0.33s           2023-08-26T05:51:17
 ================================================================================
+[2023-08-26T05:51:52.417+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/products_scripts/get_data.py                                 0           0  0.28s           2023-08-26T05:51:28
+/opt/airflow/dags/products_scripts/load_data.py                                0           0  0.25s           2023-08-26T05:51:48
+/opt/airflow/dags/products_scripts/transform_data.py                           0           0  0.26s           2023-08-26T05:51:48
+/opt/airflow/dags/sales_scripts/get_data.py                                    0           0  0.28s           2023-08-26T05:51:31
+/opt/airflow/dags/sales_scripts/load_data.py                                   0           0  0.26s           2023-08-26T05:51:48
+/opt/airflow/dags/sales_scripts/transform_data.py                              0           0  0.31s           2023-08-26T05:51:31
+/opt/airflow/dags/nikeProducts_dag.py                                          1           0  0.39s           2023-08-26T05:51:48
+/opt/airflow/dags/nikeSales_dag.py                                             1           0  0.39s           2023-08-26T05:51:48
+================================================================================
+[2023-08-26T05:52:23.054+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/products_scripts/get_data.py                                 0           0  0.27s           2023-08-26T05:51:58
+/opt/airflow/dags/products_scripts/load_data.py                                0           0  0.24s           2023-08-26T05:52:18
+/opt/airflow/dags/products_scripts/transform_data.py                           0           0  0.25s           2023-08-26T05:52:19
+/opt/airflow/dags/sales_scripts/get_data.py                                    0           0  0.26s           2023-08-26T05:52:02
+/opt/airflow/dags/sales_scripts/load_data.py                                   0           0  0.24s           2023-08-26T05:52:19
+/opt/airflow/dags/sales_scripts/transform_data.py                              0           0  0.27s           2023-08-26T05:52:02
+/opt/airflow/dags/nikeProducts_dag.py                                          1           0  0.33s           2023-08-26T05:52:18
+/opt/airflow/dags/nikeSales_dag.py                                             1           0  0.33s           2023-08-26T05:52:18
+================================================================================
+[2023-08-26T05:52:53.406+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/products_scripts/get_data.py                                 0           0  0.29s           2023-08-26T05:52:29
+/opt/airflow/dags/products_scripts/load_data.py                                0           0  0.26s           2023-08-26T05:52:49
+/opt/airflow/dags/products_scripts/transform_data.py                           0           0  0.26s           2023-08-26T05:52:49
+/opt/airflow/dags/sales_scripts/get_data.py                                    0           0  0.27s           2023-08-26T05:52:32
+/opt/airflow/dags/sales_scripts/load_data.py                                   0           0  0.25s           2023-08-26T05:52:49
+/opt/airflow/dags/sales_scripts/transform_data.py                              0           0  0.28s           2023-08-26T05:52:32
+/opt/airflow/dags/nikeProducts_dag.py                                          1           0  0.38s           2023-08-26T05:52:49
+/opt/airflow/dags/nikeSales_dag.py                                             1           0  0.40s           2023-08-26T05:52:49
+================================================================================
+[2023-08-26T05:53:24.129+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/products_scripts/get_data.py                                 0           0  0.42s           2023-08-26T05:52:59
+/opt/airflow/dags/products_scripts/load_data.py                                0           0  0.24s           2023-08-26T05:53:20
+/opt/airflow/dags/products_scripts/transform_data.py                           0           0  0.26s           2023-08-26T05:53:20
+/opt/airflow/dags/sales_scripts/get_data.py                                    0           0  0.40s           2023-08-26T05:53:03
+/opt/airflow/dags/sales_scripts/load_data.py                                   0           0  0.26s           2023-08-26T05:53:20
+/opt/airflow/dags/sales_scripts/transform_data.py                              0           0  0.42s           2023-08-26T05:53:03
+/opt/airflow/dags/nikeProducts_dag.py                                          1           0  0.41s           2023-08-26T05:53:19
+/opt/airflow/dags/nikeSales_dag.py                                             1           0  0.42s           2023-08-26T05:53:19
+================================================================================
+[2023-08-26T05:53:54.622+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/products_scripts/get_data.py                                 0           0  0.27s           2023-08-26T05:53:30
+/opt/airflow/dags/products_scripts/load_data.py                                0           0  0.24s           2023-08-26T05:53:50
+/opt/airflow/dags/products_scripts/transform_data.py                           0           0  0.26s           2023-08-26T05:53:50
+/opt/airflow/dags/sales_scripts/get_data.py                                    0           0  0.27s           2023-08-26T05:53:33
+/opt/airflow/dags/sales_scripts/load_data.py                                   0           0  0.26s           2023-08-26T05:53:50
+/opt/airflow/dags/sales_scripts/transform_data.py                              0           0  0.29s           2023-08-26T05:53:33
+/opt/airflow/dags/nikeProducts_dag.py                                          1           0  0.37s           2023-08-26T05:53:50
+/opt/airflow/dags/nikeSales_dag.py                                             1           0  0.39s           2023-08-26T05:53:50
+================================================================================
+[2023-08-26T05:54:25.165+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/products_scripts/get_data.py                                 0           0  0.51s           2023-08-26T05:54:01
+/opt/airflow/dags/products_scripts/load_data.py                                0           0  0.32s           2023-08-26T05:54:21
+/opt/airflow/dags/products_scripts/transform_data.py                           0           0  0.29s           2023-08-26T05:54:21
+/opt/airflow/dags/sales_scripts/get_data.py                                    0           0  0.35s           2023-08-26T05:54:04
+/opt/airflow/dags/sales_scripts/load_data.py                                   0           0  0.28s           2023-08-26T05:54:21
+/opt/airflow/dags/sales_scripts/transform_data.py                              0           0  0.37s           2023-08-26T05:54:04
+/opt/airflow/dags/nikeProducts_dag.py                                          1           0  0.42s           2023-08-26T05:54:20
+/opt/airflow/dags/nikeSales_dag.py                                             1           0  0.41s           2023-08-26T05:54:20
+================================================================================
+[2023-08-26T05:54:55.693+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/products_scripts/get_data.py                                 0           0  0.48s           2023-08-26T05:54:31
+/opt/airflow/dags/products_scripts/load_data.py                                0           0  0.27s           2023-08-26T05:54:51
+/opt/airflow/dags/products_scripts/transform_data.py                           0           0  0.38s           2023-08-26T05:54:52
+/opt/airflow/dags/sales_scripts/get_data.py                                    0           0  0.50s           2023-08-26T05:54:35
+/opt/airflow/dags/sales_scripts/load_data.py                                   0           0  0.38s           2023-08-26T05:54:52
+/opt/airflow/dags/sales_scripts/transform_data.py                              0           0  0.55s           2023-08-26T05:54:35
+/opt/airflow/dags/nikeProducts_dag.py                                          1           0  0.32s           2023-08-26T05:54:51
+/opt/airflow/dags/nikeSales_dag.py                                             1           0  0.32s           2023-08-26T05:54:51
+================================================================================
+[2023-08-26T05:55:26.238+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/products_scripts/get_data.py                                 0           0  0.41s           2023-08-26T05:55:02
+/opt/airflow/dags/products_scripts/load_data.py                                0           0  0.24s           2023-08-26T05:55:22
+/opt/airflow/dags/products_scripts/transform_data.py                           0           0  0.26s           2023-08-26T05:55:22
+/opt/airflow/dags/sales_scripts/get_data.py                                    0           0  0.38s           2023-08-26T05:55:05
+/opt/airflow/dags/sales_scripts/load_data.py                                   0           0  0.25s           2023-08-26T05:55:22
+/opt/airflow/dags/sales_scripts/transform_data.py                              0           0  0.40s           2023-08-26T05:55:05
+/opt/airflow/dags/nikeProducts_dag.py                                          1           0  0.53s           2023-08-26T05:55:21
+/opt/airflow/dags/nikeSales_dag.py                                             1           0  0.55s           2023-08-26T05:55:21
+================================================================================

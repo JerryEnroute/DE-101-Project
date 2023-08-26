@@ -1,0 +1,24 @@
+[2023-08-26T04:08:24.818+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: nikeSales_dag.extract_task manual__2023-08-26T04:08:24.166570+00:00 [queued]>
+[2023-08-26T04:08:24.825+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: nikeSales_dag.extract_task manual__2023-08-26T04:08:24.166570+00:00 [queued]>
+[2023-08-26T04:08:24.825+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2023-08-26T04:08:24.826+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 2
+[2023-08-26T04:08:24.826+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2023-08-26T04:08:24.834+0000] {taskinstance.py:1383} INFO - Executing <Task(PythonOperator): extract_task> on 2023-08-26 04:08:24.166570+00:00
+[2023-08-26T04:08:24.839+0000] {standard_task_runner.py:55} INFO - Started process 846 to run task
+[2023-08-26T04:08:24.842+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'nikeSales_dag', 'extract_task', 'manual__2023-08-26T04:08:24.166570+00:00', '--job-id', '120', '--raw', '--subdir', 'DAGS_FOLDER/nikeSales_dag.py', '--cfg-path', '/tmp/tmpkgjjxk0i']
+[2023-08-26T04:08:24.844+0000] {standard_task_runner.py:83} INFO - Job 120: Subtask extract_task
+[2023-08-26T04:08:24.891+0000] {task_command.py:376} INFO - Running <TaskInstance: nikeSales_dag.extract_task manual__2023-08-26T04:08:24.166570+00:00 [running]> on host 9f01d644bb11
+[2023-08-26T04:08:24.938+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=nikeSales_dag
+AIRFLOW_CTX_TASK_ID=extract_task
+AIRFLOW_CTX_EXECUTION_DATE=2023-08-26T04:08:24.166570+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-08-26T04:08:24.166570+00:00
+[2023-08-26T04:08:24.940+0000] {logging_mixin.py:120} INFO - nike_sales_2023_08_22.csv mapped to sales_etl.csv
+[2023-08-26T04:08:24.974+0000] {python.py:177} INFO - Done. Returned value was: ['sales_etl.csv']
+[2023-08-26T04:08:24.992+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=nikeSales_dag, task_id=extract_task, execution_date=20230826T040824, start_date=20230826T040824, end_date=20230826T040824
+[2023-08-26T04:08:25.015+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2023-08-26T04:08:25.037+0000] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1153,3 +1153,28 @@
 [2023-08-26T05:48:58.351+0000] {logging_mixin.py:120} INFO - [2023-08-26T05:48:58.351+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/sales_scripts/get_data.py
 [2023-08-26T05:48:58.669+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/sales_scripts/get_data.py
 [2023-08-26T05:48:58.685+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/sales_scripts/get_data.py took 0.344 seconds
+[2023-08-26T05:49:29.266+0000] {processor.py:154} INFO - Started process (PID=9530) to work on /opt/airflow/dags/sales_scripts/get_data.py
+[2023-08-26T05:49:29.267+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/sales_scripts/get_data.py for tasks to queue
+[2023-08-26T05:49:29.269+0000] {logging_mixin.py:120} INFO - [2023-08-26T05:49:29.269+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/sales_scripts/get_data.py
+[2023-08-26T05:49:29.518+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/sales_scripts/get_data.py
+[2023-08-26T05:49:29.529+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/sales_scripts/get_data.py took 0.269 seconds
+[2023-08-26T05:49:59.876+0000] {processor.py:154} INFO - Started process (PID=9572) to work on /opt/airflow/dags/sales_scripts/get_data.py
+[2023-08-26T05:49:59.878+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/sales_scripts/get_data.py for tasks to queue
+[2023-08-26T05:49:59.879+0000] {logging_mixin.py:120} INFO - [2023-08-26T05:49:59.879+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/sales_scripts/get_data.py
+[2023-08-26T05:50:00.157+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/sales_scripts/get_data.py
+[2023-08-26T05:50:00.170+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/sales_scripts/get_data.py took 0.301 seconds
+[2023-08-26T05:50:30.498+0000] {processor.py:154} INFO - Started process (PID=9615) to work on /opt/airflow/dags/sales_scripts/get_data.py
+[2023-08-26T05:50:30.500+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/sales_scripts/get_data.py for tasks to queue
+[2023-08-26T05:50:30.502+0000] {logging_mixin.py:120} INFO - [2023-08-26T05:50:30.502+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/sales_scripts/get_data.py
+[2023-08-26T05:50:30.780+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/sales_scripts/get_data.py
+[2023-08-26T05:50:30.792+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/sales_scripts/get_data.py took 0.298 seconds
+[2023-08-26T05:51:00.913+0000] {processor.py:154} INFO - Started process (PID=9658) to work on /opt/airflow/dags/sales_scripts/get_data.py
+[2023-08-26T05:51:00.915+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/sales_scripts/get_data.py for tasks to queue
+[2023-08-26T05:51:00.916+0000] {logging_mixin.py:120} INFO - [2023-08-26T05:51:00.916+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/sales_scripts/get_data.py
+[2023-08-26T05:51:01.145+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/sales_scripts/get_data.py
+[2023-08-26T05:51:01.155+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/sales_scripts/get_data.py took 0.246 seconds
+[2023-08-26T05:51:31.301+0000] {processor.py:154} INFO - Started process (PID=9692) to work on /opt/airflow/dags/sales_scripts/get_data.py
+[2023-08-26T05:51:31.302+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/sales_scripts/get_data.py for tasks to queue
+[2023-08-26T05:51:31.303+0000] {logging_mixin.py:120} INFO - [2023-08-26T05:51:31.303+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/sales_scripts/get_data.py
+[2023-08-26T05:51:31.541+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/sales_scripts/get_data.py
+[2023-08-26T05:51:31.556+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/sales_scripts/get_data.py took 0.258 seconds

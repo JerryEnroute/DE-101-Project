@@ -1143,3 +1143,33 @@
 [2023-08-26T05:48:44.873+0000] {logging_mixin.py:120} INFO - [2023-08-26T05:48:44.873+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/sales_scripts/load_data.py
 [2023-08-26T05:48:45.085+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/sales_scripts/load_data.py
 [2023-08-26T05:48:45.095+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/sales_scripts/load_data.py took 0.226 seconds
+[2023-08-26T05:49:15.824+0000] {processor.py:154} INFO - Started process (PID=9515) to work on /opt/airflow/dags/sales_scripts/load_data.py
+[2023-08-26T05:49:15.825+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/sales_scripts/load_data.py for tasks to queue
+[2023-08-26T05:49:15.826+0000] {logging_mixin.py:120} INFO - [2023-08-26T05:49:15.826+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/sales_scripts/load_data.py
+[2023-08-26T05:49:16.039+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/sales_scripts/load_data.py
+[2023-08-26T05:49:16.049+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/sales_scripts/load_data.py took 0.228 seconds
+[2023-08-26T05:49:46.415+0000] {processor.py:154} INFO - Started process (PID=9558) to work on /opt/airflow/dags/sales_scripts/load_data.py
+[2023-08-26T05:49:46.416+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/sales_scripts/load_data.py for tasks to queue
+[2023-08-26T05:49:46.417+0000] {logging_mixin.py:120} INFO - [2023-08-26T05:49:46.417+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/sales_scripts/load_data.py
+[2023-08-26T05:49:46.683+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/sales_scripts/load_data.py
+[2023-08-26T05:49:46.698+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/sales_scripts/load_data.py took 0.285 seconds
+[2023-08-26T05:50:17.045+0000] {processor.py:154} INFO - Started process (PID=9600) to work on /opt/airflow/dags/sales_scripts/load_data.py
+[2023-08-26T05:50:17.047+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/sales_scripts/load_data.py for tasks to queue
+[2023-08-26T05:50:17.048+0000] {logging_mixin.py:120} INFO - [2023-08-26T05:50:17.047+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/sales_scripts/load_data.py
+[2023-08-26T05:50:17.298+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/sales_scripts/load_data.py
+[2023-08-26T05:50:17.309+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/sales_scripts/load_data.py took 0.266 seconds
+[2023-08-26T05:50:47.512+0000] {processor.py:154} INFO - Started process (PID=9634) to work on /opt/airflow/dags/sales_scripts/load_data.py
+[2023-08-26T05:50:47.512+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/sales_scripts/load_data.py for tasks to queue
+[2023-08-26T05:50:47.513+0000] {logging_mixin.py:120} INFO - [2023-08-26T05:50:47.513+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/sales_scripts/load_data.py
+[2023-08-26T05:50:47.723+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/sales_scripts/load_data.py
+[2023-08-26T05:50:47.733+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/sales_scripts/load_data.py took 0.224 seconds
+[2023-08-26T05:51:17.881+0000] {processor.py:154} INFO - Started process (PID=9677) to work on /opt/airflow/dags/sales_scripts/load_data.py
+[2023-08-26T05:51:17.882+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/sales_scripts/load_data.py for tasks to queue
+[2023-08-26T05:51:17.883+0000] {logging_mixin.py:120} INFO - [2023-08-26T05:51:17.883+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/sales_scripts/load_data.py
+[2023-08-26T05:51:18.091+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/sales_scripts/load_data.py
+[2023-08-26T05:51:18.101+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/sales_scripts/load_data.py took 0.221 seconds
+[2023-08-26T05:51:48.354+0000] {processor.py:154} INFO - Started process (PID=9720) to work on /opt/airflow/dags/sales_scripts/load_data.py
+[2023-08-26T05:51:48.355+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/sales_scripts/load_data.py for tasks to queue
+[2023-08-26T05:51:48.356+0000] {logging_mixin.py:120} INFO - [2023-08-26T05:51:48.356+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/sales_scripts/load_data.py
+[2023-08-26T05:51:48.578+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/sales_scripts/load_data.py
+[2023-08-26T05:51:48.590+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/sales_scripts/load_data.py took 0.238 seconds

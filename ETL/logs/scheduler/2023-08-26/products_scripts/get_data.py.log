@@ -1148,3 +1148,28 @@
 [2023-08-26T05:48:54.984+0000] {logging_mixin.py:120} INFO - [2023-08-26T05:48:54.984+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/products_scripts/get_data.py
 [2023-08-26T05:48:55.281+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/products_scripts/get_data.py
 [2023-08-26T05:48:55.293+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/products_scripts/get_data.py took 0.314 seconds
+[2023-08-26T05:49:25.975+0000] {processor.py:154} INFO - Started process (PID=9527) to work on /opt/airflow/dags/products_scripts/get_data.py
+[2023-08-26T05:49:25.978+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/products_scripts/get_data.py for tasks to queue
+[2023-08-26T05:49:25.980+0000] {logging_mixin.py:120} INFO - [2023-08-26T05:49:25.980+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/products_scripts/get_data.py
+[2023-08-26T05:49:26.214+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/products_scripts/get_data.py
+[2023-08-26T05:49:26.225+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/products_scripts/get_data.py took 0.256 seconds
+[2023-08-26T05:49:56.533+0000] {processor.py:154} INFO - Started process (PID=9569) to work on /opt/airflow/dags/products_scripts/get_data.py
+[2023-08-26T05:49:56.535+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/products_scripts/get_data.py for tasks to queue
+[2023-08-26T05:49:56.536+0000] {logging_mixin.py:120} INFO - [2023-08-26T05:49:56.536+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/products_scripts/get_data.py
+[2023-08-26T05:49:56.790+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/products_scripts/get_data.py
+[2023-08-26T05:49:56.800+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/products_scripts/get_data.py took 0.270 seconds
+[2023-08-26T05:50:27.229+0000] {processor.py:154} INFO - Started process (PID=9610) to work on /opt/airflow/dags/products_scripts/get_data.py
+[2023-08-26T05:50:27.231+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/products_scripts/get_data.py for tasks to queue
+[2023-08-26T05:50:27.233+0000] {logging_mixin.py:120} INFO - [2023-08-26T05:50:27.233+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/products_scripts/get_data.py
+[2023-08-26T05:50:27.604+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/products_scripts/get_data.py
+[2023-08-26T05:50:27.617+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/products_scripts/get_data.py took 0.391 seconds
+[2023-08-26T05:50:57.672+0000] {processor.py:154} INFO - Started process (PID=9646) to work on /opt/airflow/dags/products_scripts/get_data.py
+[2023-08-26T05:50:57.675+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/products_scripts/get_data.py for tasks to queue
+[2023-08-26T05:50:57.677+0000] {logging_mixin.py:120} INFO - [2023-08-26T05:50:57.677+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/products_scripts/get_data.py
+[2023-08-26T05:50:57.892+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/products_scripts/get_data.py
+[2023-08-26T05:50:57.902+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/products_scripts/get_data.py took 0.236 seconds
+[2023-08-26T05:51:28.048+0000] {processor.py:154} INFO - Started process (PID=9689) to work on /opt/airflow/dags/products_scripts/get_data.py
+[2023-08-26T05:51:28.051+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/products_scripts/get_data.py for tasks to queue
+[2023-08-26T05:51:28.052+0000] {logging_mixin.py:120} INFO - [2023-08-26T05:51:28.052+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/products_scripts/get_data.py
+[2023-08-26T05:51:28.275+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/products_scripts/get_data.py
+[2023-08-26T05:51:28.285+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/products_scripts/get_data.py took 0.242 seconds

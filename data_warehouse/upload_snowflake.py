@@ -81,9 +81,9 @@ def upload_to_snowflake_sales(connection: SnowflakeConnection, data_frame, table
             cursor.execute(query, values)
 
 with connect(
-        account="emb55035",
-        user="jerryenroute",
-        password="2MQP2.Se",
+        account="ACCOUNT_LOCATOR",
+        user="USER",
+        password="PASSWORD",
         database="NIKE_SALES",
         schema="PUBLIC",
         warehouse="COMPUTE_WH",
@@ -92,16 +92,16 @@ with connect(
     # Process products_etl.csv
     product_df = pd.read_csv('./data/products_etl.csv')
     product_df = product_df.where(pd.notna(product_df), None)
-    #upload_to_snowflake_category(connection, product_df, "dim_category")
+    upload_to_snowflake_category(connection, product_df, "dim_category")
     print("Uploading data to category table")
-    #upload_to_snowflake_color(connection, product_df, "dim_color")
+    upload_to_snowflake_color(connection, product_df, "dim_color")
     print("Uploading data to color table")
-    #upload_to_snowflake_products(connection, product_df, "dim_products")
+    upload_to_snowflake_products(connection, product_df, "dim_products")
     print("Uploading data to products table")
 
     # Process sales_etl.csv
     sales_df = pd.read_csv('./data/sales_etl.csv')
-    #upload_to_snowflake_dates(connection, sales_df, "dim_dates")
+    upload_to_snowflake_dates(connection, sales_df, "dim_dates")
     print("Uploading data to dates table")
-    #upload_to_snowflake_sales(connection, sales_df, "fact_sales")
+    upload_to_snowflake_sales(connection, sales_df, "fact_sales")
     print("Uploading data to sales table")

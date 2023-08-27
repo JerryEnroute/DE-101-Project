@@ -5,3 +5,5 @@ scrapper/scrapper_env
 dags/files/clean*
 dags/files/output*
 dags/files/raw*
+data_warehouse/drafts/snowflake_load_products.py
+data_warehouse/drafts/snowflake_load_sales.py

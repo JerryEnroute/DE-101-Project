@@ -11,6 +11,7 @@ default_args = {
     'owner': 'airflow',
     'depends_on_past': False,
     'start_date': datetime(2022, 3, 1),
+    'schedule_interval': '@once',
     'catchup': False,
     'retries': 1,
     'retry_delay': timedelta(minutes=5),
@@ -20,7 +21,7 @@ default_args = {
 # Initialize the DAG
 with DAG('nikeSales_dag',
         default_args=default_args,
-        schedule_interval=None,
+        schedule_interval='@once',
         concurrency=3,
         ) as dag:
     extract = PythonOperator(

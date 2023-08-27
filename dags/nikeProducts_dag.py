@@ -1,5 +1,4 @@
 # Importing necessary libraries
-import os
 from datetime import datetime, timedelta
 from airflow import DAG
 from airflow.operators.python import PythonOperator
@@ -20,7 +19,7 @@ default_args = {
 # Initialize the DAG
 with DAG('nikeProducts_dag',
         default_args=default_args,
-        schedule_interval=None,
+        schedule_interval='@once',
         concurrency=3,
         ) as dag:
     extract = PythonOperator(

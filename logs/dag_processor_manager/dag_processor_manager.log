@@ -1317,3 +1317,836 @@ File Path                              PID    Runtime      # DAGs    # Errors  L
 ================================================================================
 [2023-08-27T08:21:22.987+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
 [2023-08-27T08:21:23.011+0000] {manager.py:727} INFO - There are 2 files in /opt/airflow/dags
+[2023-08-27T08:21:31.107+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.51s           2023-08-27T08:21:10
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.50s           2023-08-27T08:21:10
+================================================================================
+[2023-08-27T08:22:01.346+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.48s           2023-08-27T08:21:41
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.46s           2023-08-27T08:21:41
+================================================================================
+[2023-08-27T08:22:31.371+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.66s           2023-08-27T08:22:12
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.64s           2023-08-27T08:22:12
+================================================================================
+[2023-08-27T08:23:01.955+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.55s           2023-08-27T08:22:43
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.53s           2023-08-27T08:22:43
+================================================================================
+[2023-08-27T08:23:32.497+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.57s           2023-08-27T08:23:13
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.56s           2023-08-27T08:23:13
+================================================================================
+[2023-08-27T08:24:03.167+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.51s           2023-08-27T08:23:44
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.50s           2023-08-27T08:23:44
+================================================================================
+[2023-08-27T08:24:34.040+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.55s           2023-08-27T08:24:14
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.53s           2023-08-27T08:24:14
+================================================================================
+[2023-08-27T08:25:04.432+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.56s           2023-08-27T08:24:45
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.51s           2023-08-27T08:24:45
+================================================================================
+[2023-08-27T08:25:34.774+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.55s           2023-08-27T08:25:16
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.51s           2023-08-27T08:25:16
+================================================================================
+[2023-08-27T08:26:05.116+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.50s           2023-08-27T08:25:47
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.48s           2023-08-27T08:25:47
+================================================================================
+[2023-08-27T08:26:23.184+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2023-08-27T08:26:23.228+0000] {manager.py:727} INFO - There are 2 files in /opt/airflow/dags
+[2023-08-27T08:26:35.381+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.46s           2023-08-27T08:26:18
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.45s           2023-08-27T08:26:18
+================================================================================
+[2023-08-27T08:27:06.009+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.33s           2023-08-27T08:26:48
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.32s           2023-08-27T08:26:48
+================================================================================
+[2023-08-27T08:27:36.290+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.59s           2023-08-27T08:27:19
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.59s           2023-08-27T08:27:19
+================================================================================
+[2023-08-27T08:28:06.714+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.52s           2023-08-27T08:27:50
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.50s           2023-08-27T08:27:50
+================================================================================
+[2023-08-27T08:28:37.028+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.68s           2023-08-27T08:28:21
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.66s           2023-08-27T08:28:21
+================================================================================
+[2023-08-27T08:29:07.353+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.62s           2023-08-27T08:28:52
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.59s           2023-08-27T08:28:52
+================================================================================
+[2023-08-27T08:29:37.919+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.60s           2023-08-27T08:29:23
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.57s           2023-08-27T08:29:23
+================================================================================
+[2023-08-27T08:30:08.113+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.54s           2023-08-27T08:29:53
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.52s           2023-08-27T08:29:53
+================================================================================
+[2023-08-27T08:30:38.863+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.55s           2023-08-27T08:30:24
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.53s           2023-08-27T08:30:24
+================================================================================
+[2023-08-27T08:31:09.197+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.61s           2023-08-27T08:30:55
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.59s           2023-08-27T08:30:55
+================================================================================
+[2023-08-27T08:31:23.329+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2023-08-27T08:31:23.375+0000] {manager.py:727} INFO - There are 2 files in /opt/airflow/dags
+[2023-08-27T08:31:39.650+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.58s           2023-08-27T08:31:26
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.56s           2023-08-27T08:31:26
+================================================================================
+[2023-08-27T08:32:10.049+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.51s           2023-08-27T08:31:57
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.49s           2023-08-27T08:31:57
+================================================================================
+[2023-08-27T08:32:40.085+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.33s           2023-08-27T08:32:27
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.31s           2023-08-27T08:32:27
+================================================================================
+[2023-08-27T08:33:10.401+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.50s           2023-08-27T08:32:58
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.48s           2023-08-27T08:32:58
+================================================================================
+[2023-08-27T08:33:40.699+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.53s           2023-08-27T08:33:29
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.51s           2023-08-27T08:33:29
+================================================================================
+[2023-08-27T08:34:11.018+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.46s           2023-08-27T08:34:00
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.46s           2023-08-27T08:34:00
+================================================================================
+[2023-08-27T08:34:41.581+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.74s           2023-08-27T08:34:31
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.72s           2023-08-27T08:34:31
+================================================================================
+[2023-08-27T08:35:11.989+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.57s           2023-08-27T08:35:02
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.55s           2023-08-27T08:35:02
+================================================================================
+[2023-08-27T08:35:42.279+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.48s           2023-08-27T08:35:33
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.47s           2023-08-27T08:35:33
+================================================================================
+[2023-08-27T08:36:13.123+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.60s           2023-08-27T08:36:04
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.58s           2023-08-27T08:36:04
+================================================================================
+[2023-08-27T08:36:24.255+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2023-08-27T08:36:24.290+0000] {manager.py:727} INFO - There are 2 files in /opt/airflow/dags
+[2023-08-27T08:36:43.468+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.50s           2023-08-27T08:36:34
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.48s           2023-08-27T08:36:34
+================================================================================
+[2023-08-27T08:37:13.765+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.52s           2023-08-27T08:37:05
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.51s           2023-08-27T08:37:05
+================================================================================
+[2023-08-27T08:37:44.055+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.34s           2023-08-27T08:37:40
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.36s           2023-08-27T08:37:40
+================================================================================
+[2023-08-27T08:37:53.409+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2023-08-27T08:38:23.077+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2023-08-27T08:38:23.079+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2023-08-27T08:38:23.081+0000] {manager.py:486} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-08-27T08:38:23.081+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2023-08-27T08:38:23.140+0000] {manager.py:727} INFO - There are 2 files in /opt/airflow/dags
+[2023-08-27T08:38:23.205+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/nikeProducts_dag.py     34  0.03s             0           0
+/opt/airflow/dags/nikeSales_dag.py        35  0.03s             0           0
+================================================================================
+[2023-08-27T08:38:53.680+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  1.16s           2023-08-27T08:38:24
+/opt/airflow/dags/nikeSales_dag.py                              1           0  1.16s           2023-08-27T08:38:24
+================================================================================
+[2023-08-27T08:39:24.584+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.55s           2023-08-27T08:38:55
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.53s           2023-08-27T08:38:55
+================================================================================
+[2023-08-27T08:39:54.885+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.58s           2023-08-27T08:39:26
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.55s           2023-08-27T08:39:26
+================================================================================
+[2023-08-27T08:40:24.932+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           0           1  0.10s           2023-08-27T08:39:55
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.45s           2023-08-27T08:39:56
+================================================================================
+[2023-08-27T08:40:50.008+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2023-08-27T08:41:16.626+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2023-08-27T08:41:16.628+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2023-08-27T08:41:16.629+0000] {manager.py:486} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-08-27T08:41:16.630+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2023-08-27T08:41:16.712+0000] {manager.py:727} INFO - There are 2 files in /opt/airflow/dags
+[2023-08-27T08:41:16.789+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/nikeProducts_dag.py     38  0.04s             0           0
+/opt/airflow/dags/nikeSales_dag.py        39  0.03s             0           0
+================================================================================
+[2023-08-27T08:41:47.054+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  1.12s           2023-08-27T08:41:17
+/opt/airflow/dags/nikeSales_dag.py                              1           0  1.12s           2023-08-27T08:41:17
+================================================================================
+[2023-08-27T08:42:08.434+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2023-08-27T08:42:35.282+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2023-08-27T08:42:35.284+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2023-08-27T08:42:35.286+0000] {manager.py:486} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-08-27T08:42:35.287+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2023-08-27T08:42:35.345+0000] {manager.py:727} INFO - There are 2 files in /opt/airflow/dags
+[2023-08-27T08:42:35.414+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/nikeProducts_dag.py     34  0.02s             0           0
+/opt/airflow/dags/nikeSales_dag.py        35  0.02s             0           0
+================================================================================
+[2023-08-27T08:43:05.641+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  1.02s           2023-08-27T08:42:36
+/opt/airflow/dags/nikeSales_dag.py                              1           0  1.02s           2023-08-27T08:42:36
+================================================================================
+[2023-08-27T08:43:35.910+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.53s           2023-08-27T08:43:07
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.52s           2023-08-27T08:43:07
+================================================================================
+[2023-08-27T08:44:06.244+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.59s           2023-08-27T08:43:38
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.58s           2023-08-27T08:43:38
+================================================================================
+[2023-08-27T08:44:36.559+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.52s           2023-08-27T08:44:08
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.51s           2023-08-27T08:44:08
+================================================================================
+[2023-08-27T08:45:07.310+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.87s           2023-08-27T08:44:39
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.84s           2023-08-27T08:44:39
+================================================================================
+[2023-08-27T08:45:37.352+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.74s           2023-08-27T08:45:11
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.69s           2023-08-27T08:45:11
+================================================================================
+[2023-08-27T08:46:08.050+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.59s           2023-08-27T08:45:41
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.58s           2023-08-27T08:45:41
+================================================================================
+[2023-08-27T08:46:38.469+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.54s           2023-08-27T08:46:12
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.54s           2023-08-27T08:46:12
+================================================================================
+[2023-08-27T08:47:08.833+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.58s           2023-08-27T08:46:43
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.57s           2023-08-27T08:46:43
+================================================================================
+[2023-08-27T08:47:35.644+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2023-08-27T08:47:35.685+0000] {manager.py:727} INFO - There are 2 files in /opt/airflow/dags
+[2023-08-27T08:47:39.184+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.52s           2023-08-27T08:47:14
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.51s           2023-08-27T08:47:14
+================================================================================
+[2023-08-27T08:48:09.555+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.61s           2023-08-27T08:47:45
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.59s           2023-08-27T08:47:45
+================================================================================
+[2023-08-27T08:48:39.967+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.55s           2023-08-27T08:48:16
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.53s           2023-08-27T08:48:16
+================================================================================
+[2023-08-27T08:49:10.326+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.52s           2023-08-27T08:48:47
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.50s           2023-08-27T08:48:47
+================================================================================
+[2023-08-27T08:49:41.176+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.50s           2023-08-27T08:49:17
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.48s           2023-08-27T08:49:17
+================================================================================
+[2023-08-27T08:50:11.512+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.40s           2023-08-27T08:49:48
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.38s           2023-08-27T08:49:48
+================================================================================
+[2023-08-27T08:50:41.661+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.56s           2023-08-27T08:50:19
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.55s           2023-08-27T08:50:19
+================================================================================
+[2023-08-27T08:51:12.602+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.60s           2023-08-27T08:50:50
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.59s           2023-08-27T08:50:50
+================================================================================
+[2023-08-27T08:51:43.559+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.59s           2023-08-27T08:51:21
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.57s           2023-08-27T08:51:21
+================================================================================
+[2023-08-27T08:52:14.558+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.62s           2023-08-27T08:51:52
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.60s           2023-08-27T08:51:52
+================================================================================
+[2023-08-27T08:52:36.272+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2023-08-27T08:52:36.312+0000] {manager.py:727} INFO - There are 2 files in /opt/airflow/dags
+[2023-08-27T08:52:45.431+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.46s           2023-08-27T08:52:23
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.44s           2023-08-27T08:52:23
+================================================================================
+[2023-08-27T08:53:16.277+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.46s           2023-08-27T08:52:53
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.45s           2023-08-27T08:52:53
+================================================================================
+[2023-08-27T08:53:46.587+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.54s           2023-08-27T08:53:24
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.54s           2023-08-27T08:53:24
+================================================================================
+[2023-08-27T08:54:16.916+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.55s           2023-08-27T08:53:55
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.52s           2023-08-27T08:53:55
+================================================================================
+[2023-08-27T08:54:47.847+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.59s           2023-08-27T08:54:26
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.57s           2023-08-27T08:54:26
+================================================================================
+[2023-08-27T08:55:18.153+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.70s           2023-08-27T08:54:57
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.66s           2023-08-27T08:54:57
+================================================================================
+[2023-08-27T08:55:48.471+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.56s           2023-08-27T08:55:28
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.54s           2023-08-27T08:55:28
+================================================================================
+[2023-08-27T08:56:18.884+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.55s           2023-08-27T08:55:59
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.53s           2023-08-27T08:55:59
+================================================================================
+[2023-08-27T08:56:49.103+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.56s           2023-08-27T08:56:29
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.55s           2023-08-27T08:56:29
+================================================================================
+[2023-08-27T08:57:19.430+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.57s           2023-08-27T08:57:00
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.56s           2023-08-27T08:57:00
+================================================================================
+[2023-08-27T08:57:36.635+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2023-08-27T08:57:36.681+0000] {manager.py:727} INFO - There are 2 files in /opt/airflow/dags
+[2023-08-27T08:57:49.838+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.59s           2023-08-27T08:57:31
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.57s           2023-08-27T08:57:31
+================================================================================
+[2023-08-27T08:58:20.690+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.52s           2023-08-27T08:58:02
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.51s           2023-08-27T08:58:02
+================================================================================
+[2023-08-27T08:58:51.023+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.56s           2023-08-27T08:58:33
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.54s           2023-08-27T08:58:33
+================================================================================
+[2023-08-27T08:59:21.355+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.58s           2023-08-27T08:59:04
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.56s           2023-08-27T08:59:04
+================================================================================
+[2023-08-27T08:59:51.765+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.54s           2023-08-27T08:59:35
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.52s           2023-08-27T08:59:35
+================================================================================
+[2023-08-27T09:00:22.078+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.58s           2023-08-27T09:00:05
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.58s           2023-08-27T09:00:05
+================================================================================
+[2023-08-27T09:00:52.959+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.58s           2023-08-27T09:00:36
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.57s           2023-08-27T09:00:36
+================================================================================
+[2023-08-27T09:01:23.345+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.53s           2023-08-27T09:01:07
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.52s           2023-08-27T09:01:07
+================================================================================
+[2023-08-27T09:01:53.656+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.50s           2023-08-27T09:01:38
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.49s           2023-08-27T09:01:38
+================================================================================
+[2023-08-27T09:02:24.576+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.59s           2023-08-27T09:02:09
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.58s           2023-08-27T09:02:09
+================================================================================
+[2023-08-27T09:02:36.718+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2023-08-27T09:02:36.758+0000] {manager.py:727} INFO - There are 2 files in /opt/airflow/dags
+[2023-08-27T09:02:55.524+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.53s           2023-08-27T09:02:40
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.52s           2023-08-27T09:02:40
+================================================================================
+[2023-08-27T09:03:26.409+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.55s           2023-08-27T09:03:11
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.53s           2023-08-27T09:03:11
+================================================================================
+[2023-08-27T09:03:57.219+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.51s           2023-08-27T09:03:42
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.51s           2023-08-27T09:03:42
+================================================================================
+[2023-08-27T09:04:27.597+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.56s           2023-08-27T09:04:12
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.54s           2023-08-27T09:04:12
+================================================================================
+[2023-08-27T09:04:57.906+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.58s           2023-08-27T09:04:43
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.57s           2023-08-27T09:04:43
+================================================================================
+[2023-08-27T09:05:27.917+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.65s           2023-08-27T09:05:14
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.65s           2023-08-27T09:05:14
+================================================================================
+[2023-08-27T09:05:58.730+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.50s           2023-08-27T09:05:45
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.48s           2023-08-27T09:05:45
+================================================================================
+[2023-08-27T09:06:29.052+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.57s           2023-08-27T09:06:16
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.56s           2023-08-27T09:06:16
+================================================================================
+[2023-08-27T09:06:59.318+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nikeProducts_dag.py                           1           0  0.54s           2023-08-27T09:06:47
+/opt/airflow/dags/nikeSales_dag.py                              1           0  0.52s           2023-08-27T09:06:47
+================================================================================

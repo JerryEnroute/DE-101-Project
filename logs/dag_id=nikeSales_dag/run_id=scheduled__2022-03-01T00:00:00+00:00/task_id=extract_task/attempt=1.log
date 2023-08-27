@@ -1,0 +1,48 @@
+[2023-08-27T08:40:47.707+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: nikeSales_dag.extract_task scheduled__2022-03-01T00:00:00+00:00 [queued]>
+[2023-08-27T08:40:47.713+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: nikeSales_dag.extract_task scheduled__2022-03-01T00:00:00+00:00 [queued]>
+[2023-08-27T08:40:47.714+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2023-08-27T08:40:47.714+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 2
+[2023-08-27T08:40:47.715+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2023-08-27T08:40:47.722+0000] {taskinstance.py:1383} INFO - Executing <Task(PythonOperator): extract_task> on 2022-03-01 00:00:00+00:00
+[2023-08-27T08:40:47.727+0000] {standard_task_runner.py:55} INFO - Started process 170 to run task
+[2023-08-27T08:40:47.731+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'nikeSales_dag', 'extract_task', 'scheduled__2022-03-01T00:00:00+00:00', '--job-id', '21', '--raw', '--subdir', 'DAGS_FOLDER/nikeSales_dag.py', '--cfg-path', '/tmp/tmprcuzysfi']
+[2023-08-27T08:40:47.733+0000] {standard_task_runner.py:83} INFO - Job 21: Subtask extract_task
+[2023-08-27T08:40:47.781+0000] {task_command.py:376} INFO - Running <TaskInstance: nikeSales_dag.extract_task scheduled__2022-03-01T00:00:00+00:00 [running]> on host 2ddda8eac7aa
+[2023-08-27T08:40:47.832+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=nikeSales_dag
+AIRFLOW_CTX_TASK_ID=extract_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-03-01T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-03-01T00:00:00+00:00
+[2023-08-27T08:40:47.836+0000] {logging_mixin.py:120} INFO - nike_sales_2023_08_22.csv mapped to sales_etl.csv
+[2023-08-27T08:40:47.888+0000] {python.py:177} INFO - Done. Returned value was: ['sales_etl.csv']
+[2023-08-27T08:40:47.908+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=nikeSales_dag, task_id=extract_task, execution_date=20220301T000000, start_date=20230827T084047, end_date=20230827T084047
+[2023-08-27T08:40:47.943+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2023-08-27T08:40:47.967+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-08-27T08:42:40.540+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: nikeSales_dag.extract_task scheduled__2022-03-01T00:00:00+00:00 [queued]>
+[2023-08-27T08:42:40.565+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: nikeSales_dag.extract_task scheduled__2022-03-01T00:00:00+00:00 [queued]>
+[2023-08-27T08:42:40.566+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2023-08-27T08:42:40.566+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 2
+[2023-08-27T08:42:40.570+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2023-08-27T08:42:40.588+0000] {taskinstance.py:1383} INFO - Executing <Task(PythonOperator): extract_task> on 2022-03-01 00:00:00+00:00
+[2023-08-27T08:42:40.600+0000] {standard_task_runner.py:55} INFO - Started process 66 to run task
+[2023-08-27T08:42:40.613+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'nikeSales_dag', 'extract_task', 'scheduled__2022-03-01T00:00:00+00:00', '--job-id', '31', '--raw', '--subdir', 'DAGS_FOLDER/nikeSales_dag.py', '--cfg-path', '/tmp/tmp2_hqqjez']
+[2023-08-27T08:42:40.630+0000] {standard_task_runner.py:83} INFO - Job 31: Subtask extract_task
+[2023-08-27T08:42:40.758+0000] {task_command.py:376} INFO - Running <TaskInstance: nikeSales_dag.extract_task scheduled__2022-03-01T00:00:00+00:00 [running]> on host c4cd47d0799f
+[2023-08-27T08:42:40.831+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=nikeSales_dag
+AIRFLOW_CTX_TASK_ID=extract_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-03-01T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-03-01T00:00:00+00:00
+[2023-08-27T08:42:40.835+0000] {logging_mixin.py:120} INFO - nike_sales_2023_08_22.csv mapped to sales_etl.csv
+[2023-08-27T08:42:40.950+0000] {python.py:177} INFO - Done. Returned value was: ['sales_etl.csv']
+[2023-08-27T08:42:40.992+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=nikeSales_dag, task_id=extract_task, execution_date=20220301T000000, start_date=20230827T084240, end_date=20230827T084240
+[2023-08-27T08:42:41.046+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2023-08-27T08:42:41.124+0000] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

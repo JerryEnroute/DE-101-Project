@@ -2,3 +2,6 @@
 scrapper/data
 scrapper/__pycache__
 scrapper/scrapper_env
+dags/files/clean*
+dags/files/output*
+dags/files/raw*

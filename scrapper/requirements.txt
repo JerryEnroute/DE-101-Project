@@ -3,4 +3,3 @@ numpy
 pandas
 tqdm
 requests
-snowflake-connector-python

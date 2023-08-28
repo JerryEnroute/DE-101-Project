@@ -2,8 +2,7 @@
 scrapper/data
 scrapper/__pycache__
 scrapper/scrapper_env
-dags/files/clean*
-dags/files/output*
-dags/files/raw*
-data_warehouse/drafts/snowflake_load_products.py
-data_warehouse/drafts/snowflake_load_sales.py
+dags/logs*
+dags/__pycache__
+data_warehouse/drafts
+data_warehouse/dw_env

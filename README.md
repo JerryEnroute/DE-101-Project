@@ -53,7 +53,7 @@ python3 -m venv dw_env
 pip3 install -r requirements.txt
 ```
 
--Modify the connection params according to your account details in the [upload_snoflake.py](data_warehouse/upload_snowflake.py) file.
+-Modify the connection params according to your account details in the [upload_snowflake.py](data_warehouse/upload_snowflake.py) file.
 
 -Run the upload script:
 

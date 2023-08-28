@@ -39,7 +39,7 @@ Password: airflow
 
 - Create a database named `NIKE_SALES`.
 
-- Create the tables by running the commands in the file [ddl.sql](reporting/ddl.sql) in a Snowflake worksheet.
+- Create the tables by running the commands in the file [ddl.sql](data_warehouse/ddl.sql) in a Snowflake worksheet.
 
 ## Step 5
 

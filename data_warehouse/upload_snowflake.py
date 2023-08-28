@@ -78,11 +78,11 @@ with connect(
 
     category_df = pd.read_csv('./data/category_etl.csv')
     print("Uploading data to category table")
-    #upload_to_snowflake_category(connection, category_df, "dim_category")
+    upload_to_snowflake_category(connection, category_df, "dim_category")
 
     color_df = pd.read_csv('./data/color_etl.csv')
     print("Uploading data to color table")
-    #upload_to_snowflake_color(connection, color_df, "dim_color")
+    upload_to_snowflake_color(connection, color_df, "dim_color")
 
     product_df = pd.read_csv('./data/products_etl.csv')
     product_df['rating'] = product_df['rating'].astype(object)
@@ -91,12 +91,11 @@ with connect(
     # print(product_df['currentPrice'].head())
     # print(product_df['currentPrice'].apply(lambda x: type(x)).head())
     print("Uploading data to products table")
-    #upload_to_snowflake_products(connection, product_df, "dim_products")
-
+    upload_to_snowflake_products(connection, product_df, "dim_products")
 
     dates_df = pd.read_csv('./data/dates_etl.csv')
     print("Uploading data to dates table")
-    #upload_to_snowflake_dates(connection, dates_df, "dim_dates")
+    upload_to_snowflake_dates(connection, dates_df, "dim_dates")
 
     sales_df = pd.read_csv('./data/sales_etl.csv')
     print("Uploading data to sales table")

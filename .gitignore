@@ -1,8 +1,11 @@
 .DS_store
-scrapper/data
 scrapper/__pycache__
 scrapper/scrapper_env
-dags/logs*
 dags/__pycache__
-data_warehouse/drafts
 data_warehouse/dw_env
+dags/category_scripts/__pycache__
+dags/color_scripts/__pycache__
+dags/dates_scripts/__pycache__
+dags/products_scripts/__pycache__
+dags/sales_scripts/__pycache__
+logs/*

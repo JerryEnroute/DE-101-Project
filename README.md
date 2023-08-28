@@ -68,3 +68,12 @@ The table joins with their respective foreign key constraints will be handled by
 ### Query the tables
 
 In a new snowflake worksheet, run the commands in the file [queries.sql](reporting/queries.sql) inside the reporting directory.
+
+---
+**NOTE**
+
+I just realized that the upload to snowflake takes too much time because I tried to handle the duplicate row removal in this stage, instead, this shoudlve been handled in the transform stage of the ETL workflow.
+
+I'll fix this and commit the changes soon.
+
+---

@@ -1635,3 +1635,52 @@ SyntaxError: invalid syntax
 [2023-08-27T09:07:18.003+0000] {logging_mixin.py:120} INFO - [2023-08-27T09:07:18.003+0000] {dag.py:2585} INFO - Sync 1 DAGs
 [2023-08-27T09:07:18.018+0000] {logging_mixin.py:120} INFO - [2023-08-27T09:07:18.018+0000] {dag.py:3340} INFO - Setting next_dagrun for nikeProducts_dag to None, run_after=None
 [2023-08-27T09:07:18.035+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/nikeProducts_dag.py took 0.485 seconds
+[2023-08-27T09:07:48.385+0000] {processor.py:154} INFO - Started process (PID=1504) to work on /opt/airflow/dags/nikeProducts_dag.py
+[2023-08-27T09:07:48.388+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/nikeProducts_dag.py for tasks to queue
+[2023-08-27T09:07:48.389+0000] {logging_mixin.py:120} INFO - [2023-08-27T09:07:48.389+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/nikeProducts_dag.py
+[2023-08-27T09:07:49.123+0000] {processor.py:766} INFO - DAG(s) dict_keys(['nikeProducts_dag']) retrieved from /opt/airflow/dags/nikeProducts_dag.py
+[2023-08-27T09:07:49.169+0000] {logging_mixin.py:120} INFO - [2023-08-27T09:07:49.169+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-08-27T09:07:49.188+0000] {logging_mixin.py:120} INFO - [2023-08-27T09:07:49.188+0000] {dag.py:3340} INFO - Setting next_dagrun for nikeProducts_dag to None, run_after=None
+[2023-08-27T09:07:49.203+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/nikeProducts_dag.py took 0.824 seconds
+[2023-08-27T09:08:19.402+0000] {processor.py:154} INFO - Started process (PID=1535) to work on /opt/airflow/dags/nikeProducts_dag.py
+[2023-08-27T09:08:19.405+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/nikeProducts_dag.py for tasks to queue
+[2023-08-27T09:08:19.407+0000] {logging_mixin.py:120} INFO - [2023-08-27T09:08:19.407+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/nikeProducts_dag.py
+[2023-08-27T09:08:19.935+0000] {processor.py:766} INFO - DAG(s) dict_keys(['nikeProducts_dag']) retrieved from /opt/airflow/dags/nikeProducts_dag.py
+[2023-08-27T09:08:19.974+0000] {logging_mixin.py:120} INFO - [2023-08-27T09:08:19.974+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-08-27T09:08:19.990+0000] {logging_mixin.py:120} INFO - [2023-08-27T09:08:19.990+0000] {dag.py:3340} INFO - Setting next_dagrun for nikeProducts_dag to None, run_after=None
+[2023-08-27T09:08:20.003+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/nikeProducts_dag.py took 0.614 seconds
+[2023-08-27T09:08:50.356+0000] {processor.py:154} INFO - Started process (PID=1566) to work on /opt/airflow/dags/nikeProducts_dag.py
+[2023-08-27T09:08:50.358+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/nikeProducts_dag.py for tasks to queue
+[2023-08-27T09:08:50.359+0000] {logging_mixin.py:120} INFO - [2023-08-27T09:08:50.359+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/nikeProducts_dag.py
+[2023-08-27T09:08:50.802+0000] {processor.py:766} INFO - DAG(s) dict_keys(['nikeProducts_dag']) retrieved from /opt/airflow/dags/nikeProducts_dag.py
+[2023-08-27T09:08:50.827+0000] {logging_mixin.py:120} INFO - [2023-08-27T09:08:50.827+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-08-27T09:08:50.841+0000] {logging_mixin.py:120} INFO - [2023-08-27T09:08:50.841+0000] {dag.py:3340} INFO - Setting next_dagrun for nikeProducts_dag to None, run_after=None
+[2023-08-27T09:08:50.853+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/nikeProducts_dag.py took 0.501 seconds
+[2023-08-27T09:09:21.263+0000] {processor.py:154} INFO - Started process (PID=1588) to work on /opt/airflow/dags/nikeProducts_dag.py
+[2023-08-27T09:09:21.265+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/nikeProducts_dag.py for tasks to queue
+[2023-08-27T09:09:21.267+0000] {logging_mixin.py:120} INFO - [2023-08-27T09:09:21.266+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/nikeProducts_dag.py
+[2023-08-27T09:09:21.715+0000] {processor.py:766} INFO - DAG(s) dict_keys(['nikeProducts_dag']) retrieved from /opt/airflow/dags/nikeProducts_dag.py
+[2023-08-27T09:09:21.749+0000] {logging_mixin.py:120} INFO - [2023-08-27T09:09:21.749+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-08-27T09:09:21.767+0000] {logging_mixin.py:120} INFO - [2023-08-27T09:09:21.767+0000] {dag.py:3340} INFO - Setting next_dagrun for nikeProducts_dag to None, run_after=None
+[2023-08-27T09:09:21.780+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/nikeProducts_dag.py took 0.522 seconds
+[2023-08-27T09:09:52.259+0000] {processor.py:154} INFO - Started process (PID=1618) to work on /opt/airflow/dags/nikeProducts_dag.py
+[2023-08-27T09:09:52.261+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/nikeProducts_dag.py for tasks to queue
+[2023-08-27T09:09:52.263+0000] {logging_mixin.py:120} INFO - [2023-08-27T09:09:52.263+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/nikeProducts_dag.py
+[2023-08-27T09:09:52.725+0000] {processor.py:766} INFO - DAG(s) dict_keys(['nikeProducts_dag']) retrieved from /opt/airflow/dags/nikeProducts_dag.py
+[2023-08-27T09:09:52.769+0000] {logging_mixin.py:120} INFO - [2023-08-27T09:09:52.768+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-08-27T09:09:52.789+0000] {logging_mixin.py:120} INFO - [2023-08-27T09:09:52.789+0000] {dag.py:3340} INFO - Setting next_dagrun for nikeProducts_dag to None, run_after=None
+[2023-08-27T09:09:52.801+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/nikeProducts_dag.py took 0.555 seconds
+[2023-08-27T09:10:23.132+0000] {processor.py:154} INFO - Started process (PID=1650) to work on /opt/airflow/dags/nikeProducts_dag.py
+[2023-08-27T09:10:23.134+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/nikeProducts_dag.py for tasks to queue
+[2023-08-27T09:10:23.135+0000] {logging_mixin.py:120} INFO - [2023-08-27T09:10:23.135+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/nikeProducts_dag.py
+[2023-08-27T09:10:23.599+0000] {processor.py:766} INFO - DAG(s) dict_keys(['nikeProducts_dag']) retrieved from /opt/airflow/dags/nikeProducts_dag.py
+[2023-08-27T09:10:23.628+0000] {logging_mixin.py:120} INFO - [2023-08-27T09:10:23.628+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-08-27T09:10:23.644+0000] {logging_mixin.py:120} INFO - [2023-08-27T09:10:23.644+0000] {dag.py:3340} INFO - Setting next_dagrun for nikeProducts_dag to None, run_after=None
+[2023-08-27T09:10:23.657+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/nikeProducts_dag.py took 0.529 seconds
+[2023-08-27T09:10:54.101+0000] {processor.py:154} INFO - Started process (PID=1681) to work on /opt/airflow/dags/nikeProducts_dag.py
+[2023-08-27T09:10:54.104+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/nikeProducts_dag.py for tasks to queue
+[2023-08-27T09:10:54.106+0000] {logging_mixin.py:120} INFO - [2023-08-27T09:10:54.106+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/nikeProducts_dag.py
+[2023-08-27T09:10:54.739+0000] {processor.py:766} INFO - DAG(s) dict_keys(['nikeProducts_dag']) retrieved from /opt/airflow/dags/nikeProducts_dag.py
+[2023-08-27T09:10:54.844+0000] {logging_mixin.py:120} INFO - [2023-08-27T09:10:54.844+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-08-27T09:10:54.862+0000] {logging_mixin.py:120} INFO - [2023-08-27T09:10:54.862+0000] {dag.py:3340} INFO - Setting next_dagrun for nikeProducts_dag to None, run_after=None
+[2023-08-27T09:10:54.878+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/nikeProducts_dag.py took 0.788 seconds

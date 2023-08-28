@@ -46,3 +46,27 @@ AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-03-01T00:00:00+00:00
 [2023-08-27T08:42:44.432+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=nikeProducts_dag, task_id=transform_task, execution_date=20220301T000000, start_date=20230827T084243, end_date=20230827T084244
 [2023-08-27T08:42:44.456+0000] {local_task_job.py:164} INFO - Task exited with return code 0
 [2023-08-27T08:42:44.482+0000] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2023-08-28T16:38:03.025+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: nikeProducts_dag.transform_task scheduled__2022-03-01T00:00:00+00:00 [queued]>
+[2023-08-28T16:38:03.031+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: nikeProducts_dag.transform_task scheduled__2022-03-01T00:00:00+00:00 [queued]>
+[2023-08-28T16:38:03.032+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2023-08-28T16:38:03.032+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 2
+[2023-08-28T16:38:03.033+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2023-08-28T16:38:03.041+0000] {taskinstance.py:1383} INFO - Executing <Task(PythonOperator): transform_task> on 2022-03-01 00:00:00+00:00
+[2023-08-28T16:38:03.046+0000] {standard_task_runner.py:55} INFO - Started process 97 to run task
+[2023-08-28T16:38:03.049+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'nikeProducts_dag', 'transform_task', 'scheduled__2022-03-01T00:00:00+00:00', '--job-id', '44', '--raw', '--subdir', 'DAGS_FOLDER/nikeProducts_dag.py', '--cfg-path', '/tmp/tmpjpjd_8ll']
+[2023-08-28T16:38:03.051+0000] {standard_task_runner.py:83} INFO - Job 44: Subtask transform_task
+[2023-08-28T16:38:03.102+0000] {task_command.py:376} INFO - Running <TaskInstance: nikeProducts_dag.transform_task scheduled__2022-03-01T00:00:00+00:00 [running]> on host c4cd47d0799f
+[2023-08-28T16:38:03.147+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=nikeProducts_dag
+AIRFLOW_CTX_TASK_ID=transform_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-03-01T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-03-01T00:00:00+00:00
+[2023-08-28T16:38:03.156+0000] {logging_mixin.py:120} INFO - products_etl.csv
+[2023-08-28T16:38:03.714+0000] {python.py:177} INFO - Done. Returned value was: ['products_etl.csv']
+[2023-08-28T16:38:03.730+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=nikeProducts_dag, task_id=transform_task, execution_date=20220301T000000, start_date=20230828T163803, end_date=20230828T163803
+[2023-08-28T16:38:03.783+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2023-08-28T16:38:03.801+0000] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

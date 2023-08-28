@@ -4,7 +4,7 @@ USE WAREHOUSE compute_wh;
 CREATE TABLE dim_category (
     id INT AUTOINCREMENT,
     category VARCHAR(255) PRIMARY KEY
-);NIKE_SALES
+);
 
 CREATE TABLE dim_color (
     color_ID VARCHAR(255) PRIMARY KEY,
@@ -19,7 +19,7 @@ CREATE TABLE dim_color (
     color_InStock BOOLEAN,
     color_MemberExclusive BOOLEAN,
     color_New BOOLEAN
-);NIKE_SALES.PUBLIC.DIM_COLOR
+);
 
 CREATE TABLE dim_products (
     id INT PRIMARY KEY AUTOINCREMENT,
@@ -73,7 +73,7 @@ CREATE TABLE fact_sales (
     currency VARCHAR(10),
     sales DECIMAL(15, 2),
     quantity INT
-);NIKE_SALES.PUBLIC.DIM_COLORNIKE_SALES.PUBLIC.FACT_SALES
+);
 
 CREATE TABLE fact_sales (
     id INT PRIMARY KEY AUTOINCREMENT,

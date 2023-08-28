@@ -20,7 +20,7 @@ docker-compose up -d
 
 ### ETL
 
-- Go to http://localhost:8080/
+- Go to <http://localhost:8080/>
   
 - Login to Airflow with the credentials:
   
@@ -38,15 +38,15 @@ Password: airflow
 - Login into your [Snowflake](https://www.snowflake.com) account.
 
 - Create a database named `NIKE_SALES`.
-  
+
 - Create the tables by running the commands in the file [ddl.sql](reporting/ddl.sql) in a Snowflake worksheet.
-  
+
 ## Step 5
 
 ### Upload the data to the tables
 
 - Start the data warehouse connector environment:
-  
+
 ```sh
 cd data_warehouse
 python3 -m venv dw_env
@@ -68,12 +68,3 @@ The table joins with their respective foreign key constraints will be handled by
 ### Query the tables
 
 In a new snowflake worksheet, run the commands in the file [queries.sql](reporting/queries.sql) inside the reporting directory.
-
----
-**NOTE**
-
-I just realized that the upload to snowflake takes too much time because I tried to handle the duplicate row removal in this stage, instead, this shoudlve been handled in the transform stage of the ETL workflow.
-
-I'll fix this and commit the changes soon.
-
----

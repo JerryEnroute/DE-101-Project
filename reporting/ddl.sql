@@ -71,16 +71,6 @@ CREATE TABLE fact_sales (
     product_id INT REFERENCES dim_products(id),
     date_id DATE REFERENCES dim_dates(date_id),
     currency VARCHAR(10),
-    sales DECIMAL(15, 2),
-    quantity INT
-);
-
-CREATE TABLE fact_sales (
-    id INT PRIMARY KEY AUTOINCREMENT,
-    ticket_id INT,
-    product_id INT REFERENCES dim_products(id),
-    date_id DATE REFERENCES dim_dates(date_id),
-    currency VARCHAR(10),
-    sales DECIMAL(15, 2),
+    sales NUMBER(15, 2),
     quantity INT
 );

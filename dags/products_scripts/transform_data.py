@@ -10,18 +10,18 @@ def main(ti, **kwargs):
         print(file_name)
         extracted_data = os.path.join(AIRFLOW_HOME, "data_warehouse", "data", file_name)
 
-        df = pd.read_csv(extracted_data, index_col=0)
+        df = pd.read_csv(extracted_data, index_col=0, na_values='')
 
-        df['fullPrice'] = df['fullPrice'].astype(float)
-        df['currentPrice'] = df['currentPrice'].astype(float)
-        df['color-FullPrice'] = df['color-FullPrice'].astype(float)
-        df['color-CurrentPrice'] = df['color-CurrentPrice'].astype(float)
+        df['fullPrice'] = df['fullPrice'].astype(object)
+        df['currentPrice'] = df['currentPrice'].astype(object)
+        df['color-FullPrice'] = df['color-FullPrice'].astype(object)
+        df['color-CurrentPrice'] = df['color-CurrentPrice'].astype(object)
         boolean_cols = ['sale', 'customizable', 'ExtendedSizing', 'inStock', 'ComingSoon', 'BestSeller', 'Excluded', 'GiftCard', 'Jersey', 'Launch', 'MemberExclusive', 'NBA', 'NFL', 'Sustainable', 'color-Discount', 'color-BestSeller', 'color-InStock', 'color-MemberExclusive', 'color-New']
         for col in boolean_cols:
             df[col] = df[col].apply(lambda x: True if x == "True" else False)
-        transformed_df: pd.DataFrame = df[[ 'UID', 'cloudProdID', 'productID', 'shortID', 'colorNum', 'title', 'subtitle', 'category', 'type', 'currency', 'fullPrice', 'currentPrice', 'TopColor', 'channel', 'short_description', 'label', 'prebuildId', 'prod_url', 'color-ID', 'color-Description', 'color-Label', 'color-Image-url', 'color-FullPrice', 'color-CurrentPrice', 'rating', 'sale', 'customizable', 'ExtendedSizing', 'inStock', 'ComingSoon', 'BestSeller', 'Excluded', 'GiftCard', 'Jersey', 'Launch', 'MemberExclusive', 'NBA', 'NFL', 'Sustainable', 'color-Discount', 'color-BestSeller', 'color-InStock', 'color-MemberExclusive', 'color-New']]
+        transformed_df: pd.DataFrame = df[['UID', 'cloudProdID', 'productID', 'shortID', 'colorNum', 'title', 'subtitle', 'category', 'type', 'currency', 'fullPrice', 'currentPrice', 'TopColor', 'channel', 'short_description', 'label', 'prebuildId', 'prod_url', 'color-ID', 'color-Description', 'color-Label', 'color-Image-url', 'color-FullPrice', 'color-CurrentPrice', 'rating', 'sale', 'customizable', 'ExtendedSizing', 'inStock', 'ComingSoon', 'BestSeller', 'Excluded', 'GiftCard', 'Jersey', 'Launch', 'MemberExclusive', 'NBA', 'NFL', 'Sustainable', 'color-Discount', 'color-BestSeller', 'color-InStock', 'color-MemberExclusive', 'color-New']]
         destination = pathlib.Path(AIRFLOW_HOME, "data_warehouse", "data", file_name)
-        transformed_df.to_csv(destination, index=False)
+        transformed_df.to_csv(destination, index=False, na_rep='')
 
         ti.xcom_push(key='data', value=transformed_df)
 

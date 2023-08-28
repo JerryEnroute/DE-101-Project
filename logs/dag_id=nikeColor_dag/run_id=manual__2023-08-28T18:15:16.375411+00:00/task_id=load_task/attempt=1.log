@@ -1,0 +1,23 @@
+[2023-08-28T18:15:21.734+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: nikeColor_dag.load_task manual__2023-08-28T18:15:16.375411+00:00 [queued]>
+[2023-08-28T18:15:21.740+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: nikeColor_dag.load_task manual__2023-08-28T18:15:16.375411+00:00 [queued]>
+[2023-08-28T18:15:21.741+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2023-08-28T18:15:21.741+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 2
+[2023-08-28T18:15:21.742+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2023-08-28T18:15:21.749+0000] {taskinstance.py:1383} INFO - Executing <Task(PythonOperator): load_task> on 2023-08-28 18:15:16.375411+00:00
+[2023-08-28T18:15:21.753+0000] {standard_task_runner.py:55} INFO - Started process 1029 to run task
+[2023-08-28T18:15:21.757+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'nikeColor_dag', 'load_task', 'manual__2023-08-28T18:15:16.375411+00:00', '--job-id', '37', '--raw', '--subdir', 'DAGS_FOLDER/nikeColor_dag.py', '--cfg-path', '/tmp/tmp5d06kq5_']
+[2023-08-28T18:15:21.758+0000] {standard_task_runner.py:83} INFO - Job 37: Subtask load_task
+[2023-08-28T18:15:21.814+0000] {task_command.py:376} INFO - Running <TaskInstance: nikeColor_dag.load_task manual__2023-08-28T18:15:16.375411+00:00 [running]> on host 7eee6ddbeacd
+[2023-08-28T18:15:21.860+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=nikeColor_dag
+AIRFLOW_CTX_TASK_ID=load_task
+AIRFLOW_CTX_EXECUTION_DATE=2023-08-28T18:15:16.375411+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-08-28T18:15:16.375411+00:00
+[2023-08-28T18:15:22.309+0000] {python.py:177} INFO - Done. Returned value was: None
+[2023-08-28T18:15:22.319+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=nikeColor_dag, task_id=load_task, execution_date=20230828T181516, start_date=20230828T181521, end_date=20230828T181522
+[2023-08-28T18:15:22.371+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2023-08-28T18:15:22.390+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

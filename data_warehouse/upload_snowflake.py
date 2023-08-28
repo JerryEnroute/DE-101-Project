@@ -67,13 +67,13 @@ def upload_to_snowflake_sales(connection: SnowflakeConnection, data_frame, table
             cursor.execute(query, values)
 
 with connect(
-        account="emb55035",
-        user="jerryenroute",
-        password="2MQP2.Se",
+        account="ACCOUNT_LOCATOR",
+        user="SNOWFLAKE_USER",
+        password="SNOWFLAKE_PASSWORD",
         database="NIKE_SALES",
         schema="PUBLIC",
         warehouse="COMPUTE_WH",
-        region="us-west-2"
+        region="DATA_CENTER"
 ) as connection:
 
     category_df = pd.read_csv('./data/category_etl.csv')

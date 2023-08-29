@@ -10,3 +10,4 @@ dags/products_scripts/__pycache__
 dags/sales_scripts/__pycache__
 logs/*
 snowflake _credentials.txt
+scrapper

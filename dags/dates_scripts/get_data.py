@@ -18,7 +18,7 @@ def main():
 
     combined_df = pd.concat(dfs, ignore_index=True)
     
-    destination_filename = "dates_etl2.csv"
+    destination_filename = "dates_etl.csv"
     raw_destination = pathlib.Path(AIRFLOW_HOME, "data_warehouse", "data", destination_filename)
     combined_df.to_csv(raw_destination, index=False)
     print(f"Data merged and saved to {destination_filename}")

@@ -2,7 +2,6 @@ USE nike_sales;
 USE WAREHOUSE compute_wh;
 
 CREATE TABLE dim_category (
-    id INT AUTOINCREMENT,
     category VARCHAR(255) PRIMARY KEY
 );
 
@@ -38,7 +37,7 @@ CREATE TABLE dim_products (
     currentPrice INT,
     color_id VARCHAR(255) REFERENCES dim_color(color_ID),
     colorNum INT,
-    category_id VARCHAR(255) REFERENCES dim_category(category),
+    category VARCHAR(255) REFERENCES dim_category(category),
     type VARCHAR(255),
     channel VARCHAR(255),
     GiftCard BOOLEAN,

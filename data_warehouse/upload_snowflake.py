@@ -88,8 +88,8 @@ with connect(
     product_df['rating'] = product_df['rating'].astype(object)
     product_df['prebuildId'] = product_df['prebuildId'].astype(object)
     product_df = product_df.where(pd.notna(product_df), None)
-    # print(product_df['currentPrice'].head())
-    # print(product_df['currentPrice'].apply(lambda x: type(x)).head())
+    # print(product_df['rating'].head())
+    # print(product_df['rating'].apply(lambda x: type(x)).head())
     print("Uploading data to products table")
     upload_to_snowflake_products(connection, product_df, "dim_products")
 

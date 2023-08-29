@@ -5,7 +5,6 @@ import pandas as pd
 
 
 def main():
-    # Reads CSV data
     AIRFLOW_HOME = os.getenv('AIRFLOW_HOME')
     directory = pathlib.Path(AIRFLOW_HOME, "scrapper", "data", "products")
     input_files = os.listdir(f"{directory}/")

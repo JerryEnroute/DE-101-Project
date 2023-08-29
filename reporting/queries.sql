@@ -12,7 +12,7 @@ LIMIT 5;
 SELECT dc.category, SUM(fs.sales) AS total_sales 
 FROM fact_sales fs 
 JOIN dim_products dp ON fs.product_id = dp.id 
-JOIN dim_category dc ON dp.category_id = dc.id 
+JOIN dim_category dc ON dp.category = dc.category 
 GROUP BY dc.category 
 ORDER BY total_sales DESC 
 LIMIT 5;
@@ -22,7 +22,7 @@ LIMIT 5;
 SELECT dc.category, SUM(fs.sales) AS total_sales 
 FROM fact_sales fs 
 JOIN dim_products dp ON fs.product_id = dp.id 
-JOIN dim_category dc ON dp.category_id = dc.id 
+JOIN dim_category dc ON dp.category = dc.category  
 GROUP BY dc.category 
 ORDER BY total_sales ASC 
 LIMIT 5;
@@ -46,7 +46,7 @@ WITH RankedSales AS (
         ROW_NUMBER() OVER(PARTITION BY dc.category ORDER BY SUM(fs.sales) DESC) AS rank
     FROM fact_sales fs 
     JOIN dim_products dp ON fs.product_id = dp.id 
-    JOIN dim_category dc ON dp.category_id = dc.id 
+    JOIN dim_category dc ON dp.category = dc.category 
     GROUP BY dp.title, dc.category
 )
 
